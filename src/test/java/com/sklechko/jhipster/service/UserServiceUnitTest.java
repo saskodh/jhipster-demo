@@ -1,7 +1,7 @@
 package com.sklechko.jhipster.service;
 
 import com.sklechko.jhipster.domain.User;
-import com.sklechko.jhipster.repository.UserRepository;
+import com.sklechko.jhipster.repository.user.UserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

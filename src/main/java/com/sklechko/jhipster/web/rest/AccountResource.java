@@ -5,7 +5,7 @@ import com.sklechko.jhipster.domain.Authority;
 import com.sklechko.jhipster.domain.PersistentToken;
 import com.sklechko.jhipster.domain.User;
 import com.sklechko.jhipster.repository.PersistentTokenRepository;
-import com.sklechko.jhipster.repository.UserRepository;
+import com.sklechko.jhipster.repository.user.UserRepository;
 import com.sklechko.jhipster.security.SecurityUtils;
 import com.sklechko.jhipster.service.MailService;
 import com.sklechko.jhipster.service.UserService;

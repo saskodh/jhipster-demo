@@ -4,7 +4,7 @@ import com.sklechko.jhipster.Application;
 import com.sklechko.jhipster.domain.Authority;
 import com.sklechko.jhipster.domain.User;
 import com.sklechko.jhipster.repository.AuthorityRepository;
-import com.sklechko.jhipster.repository.UserRepository;
+import com.sklechko.jhipster.repository.user.UserRepository;
 import com.sklechko.jhipster.security.AuthoritiesConstants;
 import com.sklechko.jhipster.service.MailService;
 import com.sklechko.jhipster.service.UserService;

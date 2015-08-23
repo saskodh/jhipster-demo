@@ -2,8 +2,7 @@ package com.sklechko.jhipster.web.rest;
 
 import com.codahale.metrics.annotation.Timed;
 import com.sklechko.jhipster.domain.User;
-import com.sklechko.jhipster.repository.UserRepository;
-import com.sklechko.jhipster.security.AuthoritiesConstants;
+import com.sklechko.jhipster.repository.user.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

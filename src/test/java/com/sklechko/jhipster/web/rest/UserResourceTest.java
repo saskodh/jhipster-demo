@@ -1,7 +1,7 @@
 package com.sklechko.jhipster.web.rest;
 
 import com.sklechko.jhipster.Application;
-import com.sklechko.jhipster.repository.UserRepository;
+import com.sklechko.jhipster.repository.user.UserRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,9 +1,8 @@
 package com.sklechko.jhipster.security;
 
 import com.sklechko.jhipster.domain.PersistentToken;
-import com.sklechko.jhipster.domain.User;
 import com.sklechko.jhipster.repository.PersistentTokenRepository;
-import com.sklechko.jhipster.repository.UserRepository;
+import com.sklechko.jhipster.repository.user.UserRepository;
 import org.joda.time.LocalDate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

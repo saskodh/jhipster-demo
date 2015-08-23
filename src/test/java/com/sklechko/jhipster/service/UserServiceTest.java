@@ -4,7 +4,7 @@ import com.sklechko.jhipster.Application;
 import com.sklechko.jhipster.domain.PersistentToken;
 import com.sklechko.jhipster.domain.User;
 import com.sklechko.jhipster.repository.PersistentTokenRepository;
-import com.sklechko.jhipster.repository.UserRepository;
+import com.sklechko.jhipster.repository.user.UserRepository;
 import org.joda.time.DateTime;
 import com.sklechko.jhipster.service.util.RandomUtil;
 import org.joda.time.LocalDate;
@@ -149,7 +149,7 @@ public class UserServiceTest {
     public void testFindNotActivatedUsersByCreationDateBefore () {
         userService.removeNotActivatedUsers();
         DateTime now = new DateTime();
-        List<User> users = userRepository.findAllByActivatedIsFalseAndCreatedDateBefore(now.minusDays(3));
+        List<User> users = userRepository.findAllInactiveCreatedBefore(now.minusDays(3));
         assertThat(users).isEmpty();
     }
 
